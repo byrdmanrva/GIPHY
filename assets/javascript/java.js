@@ -1,7 +1,7 @@
 var input = "";
 
 var topics = [
-    "Cars",
+    "BMW",
     "Skateboarding",
     "Penguins",
     "Overwatch"
@@ -24,6 +24,7 @@ $(document).ready(function () {
         b.attr("data-name", input);
         b.text(input);
         $("#buttons").append(b);
+        $("#gif-search").val("");
     })
 
     $(document).on("click", ".topic", function() {

@@ -3,6 +3,10 @@
     color: white;
     text-align: center;
     font-size: 26px;
+    animation-name: fancy;
+    animation-duration: 5s;
+    animation-iteration-count: 100;
+    animation-direction: alternate;
 }
 
 #gif-search {
@@ -25,3 +29,11 @@
     margin: 0 auto;
 }
 
+@keyframes fancy {
+    0% {color: white;}
+    20% {color: red;}
+    40% {color: green;}
+    60% {color: blue;}
+    80% {color: yellow;}
+    100% {color: purple;}
+}
