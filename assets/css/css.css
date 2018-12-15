@@ -29,6 +29,13 @@
     margin: 0 auto;
 }
 
+.gif {
+    max-width: auto;
+    float: left;
+    margin: 5px;
+    border: solid 1px white;
+}
+
 @keyframes fancy {
     0% {color: white;}
     20% {color: red;}
@@ -37,3 +44,4 @@
     80% {color: yellow;}
     100% {color: purple;}
 }
+

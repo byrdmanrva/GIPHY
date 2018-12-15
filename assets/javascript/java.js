@@ -41,6 +41,7 @@ $(document).ready(function () {
                 var gifDiv = $("<div>");
                 var gifImage = $("<img>");
                 console.log(response)
+                gifImage.addClass("gif")
                 gifImage.attr("src", response[j].images.fixed_height.url);
                 gifDiv.append(gifImage);
                 $("#gifs").prepend(gifDiv);
